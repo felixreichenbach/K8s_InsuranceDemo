@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+    name: mainframe-simulator
+    labels:
+      env: mainframe-simulator
+spec:
+  containers:
+  - image: felixreichenbach/mainframe-simulator:latest
+    name: mainframe-simulator

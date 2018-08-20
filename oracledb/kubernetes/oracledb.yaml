@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+    name: oracledb
+    labels:
+      env: oracledb
+spec:
+  containers:
+  - image: felixreichenbach/oracledb:latest
+    name: oracledb

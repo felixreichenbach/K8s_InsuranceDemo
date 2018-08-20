@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+    name: insurance-data-service
+    labels:
+      env: insurance-data-service
+spec:
+  containers:
+  - image: felixreichenbach/insurance-data-service:latest
+    name: insurance-data-service
